@@ -1,0 +1,1 @@
+select * from {{ source('raw', 'census_2016_g02') }}
